@@ -1,6 +1,6 @@
-import { RouterProvider } from 'react-router';
+import { RouterProvider } from "react-router-dom";
 import { router } from './routes';
-import { Toaster } from 'sonner@2.0.3';
+import { Toaster } from "sonner";
 
 function App() {
   return (

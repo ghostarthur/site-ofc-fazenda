@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router';
 import { login, isAuthenticated } from '../utils/auth';
 import { Sprout, Lock, User } from 'lucide-react';
 
-export function Login() {
+function Login() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
